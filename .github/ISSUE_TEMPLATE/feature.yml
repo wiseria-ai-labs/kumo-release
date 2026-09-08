@@ -1,0 +1,29 @@
+name: Feature request
+description: Something Kumo should do and doesn't.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome, and genuinely useful — but feature requests do **not** count towards the beta
+        bounty. Only `confirmed` bug reports do.
+
+        Worth knowing first: some things are decided-against rather than not-yet-built — an
+        in-app editor, managing MCP servers or model rules for you, Windows, and the Mac App
+        Store. If you are asking for one of those, say why anyway; the reasons can be wrong.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do
+      description: The situation, not the solution. What are you doing today instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: What you have in mind
+      description: Optional. If you already picture how it would work, describe it.
+    validations:
+      required: false

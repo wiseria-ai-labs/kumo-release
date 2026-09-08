@@ -1,0 +1,62 @@
+name: Bug report
+description: Something in Kumo is broken or behaves differently from the docs.
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Settings → **Report a bug** opens this form with your version already filled in.
+
+        Every issue we label `confirmed` earns you one month of Kumo Personal, up to 12 months
+        per account, granted when the beta ends. Feature requests are welcome but don't count.
+
+  - type: input
+    id: version
+    attributes:
+      label: Kumo version
+      description: Settings → Agents shows it at the bottom.
+      placeholder: 0.16.0
+    validations:
+      required: true
+
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "15.6"
+    validations:
+      required: true
+
+  - type: input
+    id: agent
+    attributes:
+      label: Which agent CLI
+      description: Which backend the conversation was on, and its version if you know it. Put "none" if it isn't about a conversation.
+      placeholder: Claude 2.1.263
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: What happened
+      description: What you did, what you expected, what you got. Numbered steps if you can reproduce it.
+      placeholder: |
+        1. Opened a worktree on a repo with …
+        2. Started an agent, sent "…"
+        3. Expected …, but …
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: |
+        Optional, but it is usually the fastest way to a `confirmed`. The two files are
+        `~/Library/Logs/kumo-runtime.log` and `~/Library/Logs/kumo-gui.log`. They contain starts,
+        stops, method names and errors — no conversations and no file contents — but have a look
+        before pasting.
+      render: text
+    validations:
+      required: false

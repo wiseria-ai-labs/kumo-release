@@ -1,0 +1,13 @@
+# Blank issues off: a bug report with no version and no steps costs more to
+# chase than it saves the person filing it, and both forms are short.
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://amkumo.com/docs/
+    about: Install, set up an agent, worktrees, agentflows, Remote Control, troubleshooting.
+  - name: Troubleshooting
+    url: https://amkumo.com/docs/troubleshooting/
+    about: What the errors mean and where the logs are. Worth a look before filing.
+  - name: Changelog
+    url: https://amkumo.com/changelog/
+    about: Check whether it is already fixed in a newer version.
