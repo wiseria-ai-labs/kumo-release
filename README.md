@@ -5,8 +5,8 @@ work. Each agent gets its own git worktree; split the board, chain them into age
 from your phone. macOS.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://amkumo.com/hero-dark.png">
-  <img src="https://amkumo.com/hero-light.png" alt="The Kumo workbench: projects and worktrees on the left, an agent conversation in the middle, the file tree on the right.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://amkumo.com/hero-dark.webp">
+  <img src="https://amkumo.com/hero-light.webp" alt="The Kumo workbench: two agents side by side on a split board, each in its own tab, with projects, worktrees and running agents down the left.">
 </picture>
 
 ## Download
