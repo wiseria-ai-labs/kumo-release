@@ -1,12 +1,12 @@
 # Kumo
 
-**A lightweight, powerful workbench for your coding agents.** Built for multi-task, multi-agent
-work. Each agent gets its own git worktree; split the board, chain them into agentflows, approve
-from your phone. macOS.
+**A lightweight, powerful workbench for your coding agents.** Run several coding agents on your Mac
+at once, all in one window. Give each task its own git worktree so they don't overwrite each other's
+changes, and answer them from your phone.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://amkumo.com/hero-dark.webp">
-  <img src="https://amkumo.com/hero-light.webp" alt="The Kumo workbench: two agents side by side on a split board, each in its own tab, with projects, worktrees and running agents down the left.">
+  <img src="https://amkumo.com/hero-light.webp" alt="The Kumo workbench: two agents side by side in a split view, each in its own tab, with projects, worktrees and running agents down the left.">
 </picture>
 
 ## Download
@@ -20,10 +20,10 @@ You also need at least one agent CLI installed and signed in. Kumo ships none.
 
 ## What it does
 
-**Split the board.** Drag a tab to the edge of a pane and it splits, up to four. Every conversation
-keeps its own scroll, draft and model, and one composer at the bottom talks to whichever pane has
-focus. Two agents on the same repo never fight over the same files, because each one is on its own
-worktree.
+**Side by side.** Drag a tab to one side and the view splits, up to four conversations. Each keeps its
+own scroll position, draft and model, and the input box at the bottom goes to whichever one you
+clicked last. To keep agents out of each other's way, start each task on a new branch: Kumo creates
+a git worktree for it, so the agents on it work in their own folder.
 
 **Agentflows.** Nodes are agents with prompts, edges are conditions, and every step commits a
 checkpoint you can rerun from. Start one by hand, on a schedule, or from an event — a GitHub issue
