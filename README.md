@@ -58,14 +58,14 @@ bounty during the beta:
 > Every issue we label `confirmed` earns you one month of Kumo Personal, up to 12 months per
 > account, granted when the beta ends. Feature requests are welcome but don't count.
 
-The app has a **Report a bug** button in Settings that opens the form with your version already
-filled in.
+The app has a **Report a bug** button in Settings → About. It copies your logs to the clipboard
+and opens the form with your version already filled in.
 
 ## Docs
 
-[amkumo.com/docs](https://amkumo.com/docs/) — install, set up an agent, projects and worktrees,
-chat, board and split, tasks and agentflows, working with several agents, Remote Control,
-troubleshooting.
+[amkumo.com/docs](https://amkumo.com/docs/) — install, set up an agent, projects and Workspaces,
+chat, board and split, files, git and terminal, Tasks, Agentflows, agents working together,
+Remote Control, settings and plans, troubleshooting.
 
 [Changelog](https://amkumo.com/changelog/) · [Privacy](https://amkumo.com/privacy/) ·
 [Terms](https://amkumo.com/terms/)

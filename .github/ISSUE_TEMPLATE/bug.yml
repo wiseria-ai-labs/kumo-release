@@ -53,7 +53,9 @@ body:
     attributes:
       label: Logs
       description: |
-        Optional, but it is usually the fastest way to a `confirmed`. The two files are
+        Optional, but it is usually the fastest way to a `confirmed`. Settings → **Report a bug**
+        fills this in with the tail of your logs and puts the whole file on your clipboard — paste
+        it into the comment box below and GitHub attaches it. Otherwise the two files are
         `~/Library/Logs/kumo-runtime.log` and `~/Library/Logs/kumo-gui.log`. They contain starts,
         stops, method names and errors — no conversations and no file contents — but have a look
         before pasting.
